@@ -88,19 +88,20 @@ HEADER
 
 /*TITLE*/
 
-.heading {
+.title {
 	width: 420px;
 }
 
-.heading h1 {
+.title h1 {
 	font-size: 52px;
 	font-weight: normal;
 	text-shadow: 0px 1px 1px rgba(46, 107, 130, 0.4);
+	line-height: 1.192;
 }
 
-.heading p {
+.title p {
 	font-size: 14px;
 	text-shadow: 0px 1px 1px rgba(46, 107, 130, 0.4);
 	line-height: 1.786;
+	width: 380px;
 }
-
