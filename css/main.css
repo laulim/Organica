@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: 'Arial', sans-serif;
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
 }
 
 * {
@@ -42,15 +42,16 @@ HEADER
 	background-size: cover;
 	padding-top: 30px;
 	color: #fff;
+	position: relative;
 }
 
+/*LOGO*/
 .logo {
-	display: block;
 	margin-bottom: 70px;
 }
 
 /*NAVIGATION*/
-.nav {
+.navi {
 	margin-bottom: 60px;
 }
 
@@ -66,7 +67,11 @@ HEADER
 	padding: 0;
 	display: inline-block;
 	font-size: 22px;
-	width: 240px;
+	margin-right: 145px;
+}
+
+.menu-item:last-child {
+	margin-right: 0;
 }
 
 .menu-link {
