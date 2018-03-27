@@ -40,14 +40,15 @@ HEADER
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding-top: 30px;
 	color: #fff;
 	position: relative;
+	padding-top: 173px;
 }
 
 /*LOGO*/
 .logo {
-	margin-bottom: 70px;
+	position: absolute;
+	top: 30px;
 }
 
 /*NAVIGATION*/
@@ -62,7 +63,7 @@ HEADER
 	font-size: 0;
 }
 
-.menu-item {
+.menu li {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
@@ -70,23 +71,36 @@ HEADER
 	margin-right: 145px;
 }
 
-.menu-item:last-child {
+.menu li:last-child {
 	margin-right: 0;
 }
 
-.menu-link {
+.menu li a {
 	display: block;
 	text-decoration: none;
 	color: #fff;
 	font-weight: bold;
 }
 
-.menu-link:hover {
+.menu li a:hover {
 	text-decoration: underline;
 }
 
 /*TITLE*/
 
-.title {
-	width: 490px;
+.heading {
+	width: 420px;
 }
+
+.heading h1 {
+	font-size: 52px;
+	font-weight: normal;
+	text-shadow: 0px 1px 1px rgba(46, 107, 130, 0.4);
+}
+
+.heading p {
+	font-size: 14px;
+	text-shadow: 0px 1px 1px rgba(46, 107, 130, 0.4);
+	line-height: 1.786;
+}
+
