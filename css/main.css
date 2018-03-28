@@ -19,10 +19,6 @@ body {
 	clear: both;
 }
 
-/*-----------------
-GRID
--------------------*/
-
 .container {
 	width: 960px;
 	margin-right: auto;
@@ -111,18 +107,14 @@ MAIN
 ---------------*/
 
 .main {
-	background-color: #fff;
 	min-height: 495px;
 	padding-top: 110px;
+	padding-bottom: 85px;
 }
 
 /*LEFT*/
 .left-col {
 	width: 310px;
-	font-style: italic;
-	color: #fe992a;
-	line-height: 1.4;
-	font-size: 20px;
 	min-height: 297px;
 	border-right: 1px solid #eaeaea;
 	padding-right: 40px;
@@ -131,13 +123,17 @@ MAIN
 
 .left-col p {
 	margin: 0;
+	font-style: italic;
+	color: #fe992a;
+	line-height: 1.4;
+	font-size: 20px;
 }
 
 /*MAIN*/
 .main-content {
 	width: 590px;
 	margin-left: 60px;
-	float: left;
+	float: right;
 }
 
 .main-content h2 {
@@ -153,3 +149,6 @@ MAIN
 	color: #737c85;
 }
 
+/*-------------
+FOOTER
+---------------*/
