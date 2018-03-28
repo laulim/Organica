@@ -156,3 +156,67 @@ MAIN
 /*-------------
 FOOTER
 ---------------*/
+
+.footer {
+	background-color: #e77370;
+	padding-top: 45px;
+	padding-bottom: 185px;
+	color: #fff;
+}
+
+.footer h3 {
+	font-size: 18px;
+}
+
+.footer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.footer ul li {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 18px;
+}
+
+.footer a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+
+/*CONTACTS*/
+.contacts {
+	width: 230px;
+	float: left;
+}
+
+/*INFO*/
+.info {
+	width: 650px;
+	float: right;
+}
+
+.col-5 {
+	width: 110px;
+	float: left;
+	margin-right: 25px;
+}
+
+.col-5:last-child {
+	margin-right: 0;
+}
+
+.col-5 h3 {
+	margin-top: 0;
+}
+
+.col-5 ul li:last-child {
+	padding-bottom: 0;
+}
