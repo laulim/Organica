@@ -143,9 +143,13 @@ MAIN
 	font-weight: normal;
 }
 
-.main-content p, a {
+.main-content p {
 	font-size: 14px;
 	line-height: 2;
+	color: #737c85;
+}
+
+.main-content a {
 	color: #737c85;
 }
 
