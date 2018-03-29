@@ -37,14 +37,12 @@ HEADER
 	background-position: center;
 	background-size: cover;
 	color: #fff;
-	position: relative;
-	padding-top: 173px;
+	padding-top: 30px;
 }
 
 /*LOGO*/
 .logo {
-	position: absolute;
-	top: 30px;
+	padding-bottom: 70px;
 }
 
 /*NAVIGATION*/
@@ -159,13 +157,18 @@ FOOTER
 
 .footer {
 	background-color: #e77370;
+	background-image: url(../img/bg_f.jpg);
 	padding-top: 45px;
-	padding-bottom: 185px;
+	padding-bottom: 180px;
 	color: #fff;
+	font-size: 14px;
 }
 
-.footer h3 {
+.footer h4 {
 	font-size: 18px;
+	margin: 0;
+	margin-bottom: 10px;
+	font-weight: bold;
 }
 
 .footer ul {
@@ -177,13 +180,13 @@ FOOTER
 .footer ul li {
 	margin: 0;
 	padding: 0;
-	padding-bottom: 18px;
+	margin-bottom: 10px;
+	line-height: 18px;
 }
 
 .footer a {
 	color: #fff;
 	text-decoration: none;
-	font-size: 14px;
 }
 
 .footer a:hover {
@@ -195,28 +198,21 @@ FOOTER
 .contacts {
 	width: 230px;
 	float: left;
+	margin-right: 40px;
 }
 
 /*INFO*/
-.info {
-	width: 650px;
-	float: right;
-}
 
-.col-5 {
+.info {
 	width: 110px;
 	float: left;
-	margin-right: 25px;
+	margin-right: 35px;
 }
 
-.col-5:last-child {
+.info:last-child {
 	margin-right: 0;
 }
 
-.col-5 h3 {
-	margin-top: 0;
-}
-
-.col-5 ul li:last-child {
+/*.info ul li:last-child {
 	padding-bottom: 0;
-}
+}*/
