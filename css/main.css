@@ -91,6 +91,7 @@ HEADER
 	font-weight: normal;
 	text-shadow: 0px 1px 1px rgba(46, 107, 130, 0.4);
 	line-height: 1.192;
+	margin-bottom: 30px;
 }
 
 .title p {
@@ -113,14 +114,13 @@ MAIN
 /*LEFT*/
 .left-col {
 	width: 310px;
-	min-height: 297px;
 	border-right: 1px solid #eaeaea;
 	padding-right: 40px;
 	float: left;
+	padding-bottom: 135px;
 }
 
 .left-col p {
-	margin: 0;
 	font-style: italic;
 	color: #fe992a;
 	line-height: 1.4;
@@ -135,10 +135,10 @@ MAIN
 }
 
 .main-content h2 {
-	margin: 0;
 	color: #fe992a;
 	font-size: 24px;
 	font-weight: normal;
+	margin-bottom: 10px;
 }
 
 .main-content p {
@@ -175,6 +175,7 @@ FOOTER
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	margin-bottom: 20px;
 }
 
 .footer ul li {
@@ -202,7 +203,6 @@ FOOTER
 }
 
 /*INFO*/
-
 .info {
 	width: 110px;
 	float: left;
@@ -212,7 +212,3 @@ FOOTER
 .info:last-child {
 	margin-right: 0;
 }
-
-/*.info ul li:last-child {
-	padding-bottom: 0;
-}*/
